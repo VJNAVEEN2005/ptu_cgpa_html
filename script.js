@@ -36,7 +36,6 @@ function hm1(){
 function hm2(){
     hm1()
     console.log(hm)
-    document.getElementById("h1").textContent = hm.value + localStorage.getItem("dept") + localStorage.getItem("sem")
     //Minor
     if(hm.value == "minor"){
         //EEE
