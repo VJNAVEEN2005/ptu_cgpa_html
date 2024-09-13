@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        
+        <div class="background">
+            <button onclick="location.href='index.html'" class="back">Back</button>
+            <h1></h1>
+                <div class="index_container">
+                    
+                    <p class="index_text">Select The Honor/Minor</p>
+                    <select class="border" onchange="hm1()" id="hm">
+                        <option value="honor">Honour</option>
+                        <option value="minor">Minor</option>
+                        <option value="none">None</option>
+                    </select>
+                </div>
+                <br><br>
+                <button class="hoverbutton" onclick="hm2()">Submit</button>
+        </div>
+        
+        <h1 id="h1"></h1>
+    </center>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&family=Sevillana&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <div class="background">
+            <h1 class="poppins-bold">PTU CGPA Calculator</h1>
+            <div>
+                <div class="container">
+                    <div class="index_container">
+                        <p class="index_text">Select The Department</p>
+                        <select class="border" onchange="deptartment()" id="dept1">
+                            <option value="cse">CSE</option>
+                            <option value="it">IT</option>
+                            <option value="ece">ECE</option>
+                            <option value="eee">EEE</option>
+                            <option value="eie">EIE</option>
+                            <option value="mech">MECH</option>
+                            <option value="mt">MT</option>
+                            <option value="civil">CIVIL</option>
+                            <option value="chem">CHEM</option>
+                        </select>
+                    </div>
+
+                    <div class="index_container">
+                        <p class="index_text">Select The Semester</p>
+                        <select class="border" onchange="semester()" id="sem">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                        </select>
+                    </div>
+                </div>
+                <br><br>
+                <button class="hoverbutton" onclick="dept_sem()">Submit</button>
+            </div>
+        </div>
+    </center>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

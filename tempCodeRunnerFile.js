@@ -1,0 +1,1 @@
+window.location = "minor.html"
