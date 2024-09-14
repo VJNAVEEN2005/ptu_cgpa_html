@@ -37,8 +37,9 @@ function hm2(){
     hm1()
     console.log(hm)
     //Minor
-    if(hm.value == "minor"){
-        //EEE
+        // Normal
+    
+        
         if(localStorage.getItem("dept") == "eee"){
             if(localStorage.getItem("sem") == "3"){
                 window.location = "EEE/3rd_sem.html"
@@ -56,49 +57,24 @@ function hm2(){
                 window.location = "EEE/7th_sem.html"
             }
         }
-    }
-    //Honor
-    else if(hm.value == "honor"){
-        //EEE
-        if(localStorage.getItem("dept") == "eee"){
+        else if(localStorage.getItem("dept") == "cse"){
             if(localStorage.getItem("sem") == "3"){
-                window.location = "EEE/3rd_sem.html"
+                window.location = "CSE/3rd_sem.html"
             }
             else if(localStorage.getItem("sem") == "4"){
-                window.location = "EEE/4th_sem.html"
+                window.location = "CSE/4th_sem.html"
             }
             else if(localStorage.getItem("sem") == "5"){
-                window.location = "EEE/5th_sem.html"
+                window.location = "CSE/5th_sem.html"
             }
             else if(localStorage.getItem("sem") == "6"){
-                window.location = "EEE/6th_sem.html"
+                window.location = "CSE/6th_sem.html"
             }
             else if(localStorage.getItem("sem") == "7"){
-                window.location = "EEE/7th_sem.html"
+                window.location = "CSE/7th_sem.html"
             }
         }
-    }
-    // Normal
-    else{
-        //EEE
-        if(localStorage.getItem("dept") == "eee"){
-            if(localStorage.getItem("sem") == "3"){
-                window.location = "EEE/3rd_sem.html"
-            }
-            else if(localStorage.getItem("sem") == "4"){
-                window.location = "EEE/4th_sem.html"
-            }
-            else if(localStorage.getItem("sem") == "5"){
-                window.location = "EEE/5th_sem.html"
-            }
-            else if(localStorage.getItem("sem") == "6"){
-                window.location = "EEE/6th_sem.html"
-            }
-            else if(localStorage.getItem("sem") == "7"){
-                window.location = "EEE/7th_sem.html"
-            }
-        }
-    }
+    
 }
 
 // Subject BEE or ENG
