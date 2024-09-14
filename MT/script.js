@@ -80,9 +80,9 @@ function result_3(){
     }
 
     if(localStorage.getItem("hm") == "minor" || localStorage.getItem("hm") == "honor"){
-        var Result = ( (Number(m3)*3)+(Number(eca)*3)+(Number(emf)*3)+(Number(edc)*3)+(Number(em1)*2)+(Number(ss)*1.5)+(Number(el_lab_1)*1.5)+(Number(em_lab_1)*1.5)+(Number(minor)*4) ) / 22.5
+        var Result = ( (Number(m3)*4)+(Number(eca)*3)+(Number(emf)*3)+(Number(edc)*3)+(Number(em1)*3)+(Number(ss)*1.5)+(Number(el_lab_1)*1.5)+(Number(em_lab_1)*1.5)+(Number(minor)*4) ) / 24.5
     }else{
-        var Result = ( (Number(m3)*3)+(Number(eca)*3)+(Number(emf)*3)+(Number(edc)*3)+(Number(em1)*2)+(Number(ss)*1.5)+(Number(el_lab_1)*1.5)+(Number(em_lab_1)*1.5) ) / 18.5
+        var Result = ( (Number(m3)*4)+(Number(eca)*3)+(Number(emf)*3)+(Number(edc)*3)+(Number(em1)*3)+(Number(ss)*1.5)+(Number(el_lab_1)*1.5)+(Number(em_lab_1)*1.5) ) / 20.5
     }
     
 
@@ -145,11 +145,17 @@ function result_4(){
             var minor = radio8[i].value
     }
 
+    var radio9 = document.getElementsByName("idt")
+    for(i=0;i<radio9.length;i++){
+        if(radio9[i].checked)
+            var idt = radio9[i].value
+    }
+
     if(localStorage.getItem("hm") == "minor" || localStorage.getItem("hm") == "honor"){
-        var Result = ( (Number(bfe)*4)+(Number(ae)*3)+(Number(pdc)*3)+(Number(em2)*3)+(Number(dsoop)*3)+(Number(el_lab_2)*1.5)+(Number(em_lab_2)*1.5)+(Number(dsoop_lab)*1.5)+(Number(minor)*4) ) / 24.5
+        var Result = ( (Number(bfe)*2)+(Number(ae)*3)+(Number(pdc)*3)+(Number(em2)*4)+(Number(dsoop)*3)+(Number(el_lab_2)*1.5)+(Number(em_lab_2)*1.5)+(Number(dsoop_lab)*1.5)+(Number(idt)*1.5)+(Number(minor)*4) ) / 25
     }
     else{
-        var Result = ( (Number(bfe)*4)+(Number(ae)*3)+(Number(pdc)*3)+(Number(em2)*3)+(Number(dsoop)*3)+(Number(el_lab_2)*1.5)+(Number(em_lab_2)*1.5)+(Number(dsoop_lab)*1.5) ) / 20.5
+        var Result = ( (Number(bfe)*2)+(Number(ae)*3)+(Number(pdc)*3)+(Number(em2)*4)+(Number(dsoop)*3)+(Number(el_lab_2)*1.5)+(Number(em_lab_2)*1.5)+(Number(dsoop_lab)*1.5)+(Number(idt)*1.5)) / 21
     }
     
 
@@ -217,16 +223,16 @@ function result_5(){
             var minor = radio10[i].value
     }
 
-    var radio10 = document.getElementsByName("oec1")
-    for(i=0;i<radio10.length;i++){
-        if(radio10[i].checked)
-            var oec1 = radio10[i].value
+    var radio11 = document.getElementsByName("oec1")
+    for(i=0;i<radio11.length;i++){
+        if(radio11[i].checked)
+            var oec1 = radio11[i].value
     }
 
     if(localStorage.getItem("hm") == "minor" || localStorage.getItem("hm") == "honor"){
-        var Result = ( (Number(adc)*3)+(Number(pe)*4)+(Number(mi)*4)+(Number(td)*3)+(Number(cs)*3)+(Number(iem)*1.5)+(Number(el_lab_3)*1.5)+(Number(mc_lab)*1.5)+(Number(oec1)*3)+(Number(minor)*4) ) / 28.5 //want to change
+        var Result = ( (Number(adc)*4)+(Number(pe)*3)+(Number(mi)*3)+(Number(td)*3)+(Number(cs)*3)+(Number(iem)*1.5)+(Number(el_lab_3)*1.5)+(Number(mc_lab)*1.5)+(Number(oec)*3)+(Number(minor)*4) ) / 27.5 //want to change
     }else{
-        var Result = ( (Number(adc)*3)+(Number(pe)*4)+(Number(mi)*4)+(Number(td)*3)+(Number(cs)*3)+(Number(iem)*1.5)+(Number(el_lab_3)*1.5)+(Number(mc_lab)*1.5)+(Number(oec1)*3) ) / 24.5
+        var Result = ( (Number(adc)*4)+(Number(pe)*3)+(Number(mi)*3)+(Number(td)*3)+(Number(cs)*3)+(Number(iem)*1.5)+(Number(el_lab_3)*1.5)+(Number(mc_lab)*1.5)+(Number(oec)*3) ) / 23.5
     }
 
     
@@ -295,10 +301,16 @@ function result_6(){
             var oec1 = radio10[i].value
     }
 
+    var radio11 = document.getElementsByName("oec12")
+    for(i=0;i<radio11.length;i++){
+        if(radio11[i].checked)
+            var oec12 = radio11[i].value
+    }
+
     if(localStorage.getItem("hm") == "minor" || localStorage.getItem("hm") == "honor"){
-        var Result = ( (Number(psa)*3)+(Number(mm)*4)+(Number(pe1)*3)+(Number(pe2)*3)+(Number(entre)*3)+(Number(mm_lab)*2)+(Number(pe_lab)*1.5)+(Number(oec)*1.5)+(Number(oec1)*3)+(Number(minor)*4) ) / 28
+        var Result = ( (Number(psa)*3)+(Number(mm)*4)+(Number(pe1)*3)+(Number(pe2)*3)+(Number(entre)*3)+(Number(mm_lab)*2)+(Number(pe_lab)*1.5)+(Number(oec)*1.5)+(Number(oec1)*1.5)+(Number(oec12)*3)+(Number(minor)*4) ) / 29.5
     }else{
-        var Result = ( (Number(psa)*3)+(Number(mm)*4)+(Number(pe1)*3)+(Number(pe2)*3)+(Number(entre)*3)+(Number(mm_lab)*2)+(Number(pe_lab)*1.5)+(Number(oec)*1.5)+(Number(oec1)*3) ) / 24
+        var Result = ( (Number(psa)*3)+(Number(mm)*4)+(Number(pe1)*3)+(Number(pe2)*3)+(Number(entre)*3)+(Number(mm_lab)*2)+(Number(pe_lab)*1.5)+(Number(oec)*1.5)+(Number(oec1)*1.5)+(Number(oec12)*3) ) / 25.5
     }
     
 
@@ -370,9 +382,9 @@ function result_7(){
     }
 
     if(localStorage.getItem("hm") == "minor" || localStorage.getItem("hm") == "honor"){
-        var Result = ( (Number(psoc)*4)+(Number(ps)*3)+(Number(ssd)*3)+(Number(pe3)*3)+(Number(pe4)*1.5)+(Number(pe5)*1)+(Number(ps_lab)*1.5)+(Number(seminar)*3)+(Number(minor)*4) ) / 24
+        var Result = ( (Number(psoc)*4)+(Number(ps)*3)+(Number(ssd)*3)+(Number(pe3)*3)+(Number(pe4)*1.5)+(Number(pe5)*1.5)+(Number(ps_lab)*2)+(Number(minor)*4) ) / 22
     }else{
-        var Result = ( (Number(psoc)*4)+(Number(ps)*3)+(Number(ssd)*3)+(Number(pe3)*3)+(Number(pe4)*1.5)+(Number(pe5)*1)+(Number(ps_lab)*1.5)+(Number(seminar)*3)) / 20
+        var Result = ( (Number(psoc)*4)+(Number(ps)*3)+(Number(ssd)*3)+(Number(pe3)*3)+(Number(pe4)*1.5)+(Number(pe5)*1.5)+(Number(ps_lab)*2)) / 18
     }
     
 

@@ -91,6 +91,23 @@ function hm2(){
                 window.location = "IT/7th_sem.html"
             }
         }
+        else if(localStorage.getItem("dept") == "mt"){
+            if(localStorage.getItem("sem") == "3"){
+                window.location = "MT/3rd_sem.html"
+            }
+            else if(localStorage.getItem("sem") == "4"){
+                window.location = "MT/4th_sem.html"
+            }
+            else if(localStorage.getItem("sem") == "5"){
+                window.location = "MT/5th_sem.html"
+            }
+            else if(localStorage.getItem("sem") == "6"){
+                window.location = "MT/6th_sem.html"
+            }
+            else if(localStorage.getItem("sem") == "7"){
+                window.location = "MT/7th_sem.html"
+            }
+        }
     
 }
 
