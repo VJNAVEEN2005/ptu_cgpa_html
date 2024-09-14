@@ -74,6 +74,23 @@ function hm2(){
                 window.location = "CSE/7th_sem.html"
             }
         }
+        else if(localStorage.getItem("dept") == "it"){
+            if(localStorage.getItem("sem") == "3"){
+                window.location = "IT/3rd_sem.html"
+            }
+            else if(localStorage.getItem("sem") == "4"){
+                window.location = "IT/4th_sem.html"
+            }
+            else if(localStorage.getItem("sem") == "5"){
+                window.location = "IT/5th_sem.html"
+            }
+            else if(localStorage.getItem("sem") == "6"){
+                window.location = "IT/6th_sem.html"
+            }
+            else if(localStorage.getItem("sem") == "7"){
+                window.location = "IT/7th_sem.html"
+            }
+        }
     
 }
 
