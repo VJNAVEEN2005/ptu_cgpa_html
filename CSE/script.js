@@ -80,9 +80,9 @@ function result_3(){
     }
 
     if(localStorage.getItem("hm") == "minor" || localStorage.getItem("hm") == "honor"){
-        var Result = ( (Number(m3)*2)+(Number(eca)*3)+(Number(emf)*4)+(Number(edc)*3)+(Number(em1)*3)+(Number(ss)*3)+(Number(el_lab_1)*1.5)+(Number(em_lab_1)*1.5)+(Number(minor)*4) ) / 25
+        var Result = ( (Number(m3)*2)+(Number(eca)*3)+(Number(emf)*4)+(Number(edc)*3)+(Number(em1)*3)+(Number(ss)*1.5)+(Number(el_lab_1)*1.5)+(Number(em_lab_1)*1.5)+(Number(minor)*4) ) / 23.5
     }else{
-        var Result = ( (Number(m3)*2)+(Number(eca)*3)+(Number(emf)*4)+(Number(edc)*3)+(Number(em1)*3)+(Number(ss)*3)+(Number(el_lab_1)*1.5)+(Number(em_lab_1)*1.5) ) / 21  //edds lab changed
+        var Result = ( (Number(m3)*2)+(Number(eca)*3)+(Number(emf)*4)+(Number(edc)*3)+(Number(em1)*3)+(Number(ss)*1.5)+(Number(el_lab_1)*1.5)+(Number(em_lab_1)*1.5) ) / 19.5
     }
     
 
