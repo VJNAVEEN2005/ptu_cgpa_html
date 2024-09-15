@@ -80,9 +80,9 @@ function result_3(){
     }
 
     if(localStorage.getItem("hm") == "minor" || localStorage.getItem("hm") == "honor"){
-        var Result = ( (Number(m3)*2)+(Number(eca)*3)+(Number(emf)*4)+(Number(edc)*3)+(Number(em1)*3)+(Number(ss)*3)+(Number(el_lab_1)*1.5)+(Number(em_lab_1)*1.5)+(Number(minor)*4) ) / 25
+        var Result = ( (Number(m3)*4)+(Number(eca)*2)+(Number(emf)*4)+(Number(edc)*3)+(Number(em1)*4)+(Number(ss)*3)+(Number(el_lab_1)*1.5)+(Number(em_lab_1)*1)+(Number(minor)*4) ) / 26.5
     }else{
-        var Result = ( (Number(m3)*2)+(Number(eca)*3)+(Number(emf)*4)+(Number(edc)*3)+(Number(em1)*3)+(Number(ss)*3)+(Number(el_lab_1)*1.5)+(Number(em_lab_1)*1.5) ) / 21  //edds lab changed
+        var Result = ( (Number(m3)*4)+(Number(eca)*2)+(Number(emf)*4)+(Number(edc)*3)+(Number(em1)*4)+(Number(ss)*3)+(Number(el_lab_1)*1.5)+(Number(em_lab_1)*1) ) / 22.5
     }
     
 
@@ -146,10 +146,10 @@ function result_4(){
     }
 
     if(localStorage.getItem("hm") == "minor" || localStorage.getItem("hm") == "honor"){
-        var Result = ( (Number(bfe)*4)+(Number(ae)*3)+(Number(pdc)*3)+(Number(em2)*3)+(Number(dsoop)*4)+(Number(el_lab_2)*1.5)+(Number(em_lab_2)*1.5)+(Number(dsoop_lab)*1.5)+(Number(minor)*4) ) / 25.5
+        var Result = ( (Number(bfe)*3)+(Number(ae)*3)+(Number(pdc)*3)+(Number(em2)*3)+(Number(dsoop)*3)+(Number(el_lab_2)*1.5)+(Number(em_lab_2)*1.5)+(Number(dsoop_lab)*1.5)+(Number(minor)*4) ) / 23.5
     }
     else{
-        var Result = ( (Number(bfe)*4)+(Number(ae)*3)+(Number(pdc)*3)+(Number(em2)*3)+(Number(dsoop)*4)+(Number(el_lab_2)*1.5)+(Number(em_lab_2)*1.5)+(Number(dsoop_lab)*1.5) ) / 21.5
+        var Result = ( (Number(bfe)*3)+(Number(ae)*3)+(Number(pdc)*3)+(Number(em2)*3)+(Number(dsoop)*3)+(Number(el_lab_2)*1.5)+(Number(em_lab_2)*1.5)+(Number(dsoop_lab)*1.5) ) / 19.5
     }
     
 
@@ -218,9 +218,9 @@ function result_5(){
     }
 
     if(localStorage.getItem("hm") == "minor" || localStorage.getItem("hm") == "honor"){
-        var Result = ( (Number(adc)*3)+(Number(pe)*3)+(Number(mi)*3)+(Number(td)*4)+(Number(cs)*3)+(Number(iem)*1.5)+(Number(el_lab_3)*1.5)+(Number(mc_lab)*3)+(Number(minor)*4) ) / 26
+        var Result = ( (Number(adc)*4)+(Number(pe)*3)+(Number(mi)*4)+(Number(td)*2)+(Number(cs)*3)+(Number(iem)*1.5)+(Number(el_lab_3)*1.5)+(Number(mc_lab)*1.5)+(Number(oec)*3)+(Number(minor)*4) ) / 26
     }else{
-        var Result = ( (Number(adc)*3)+(Number(pe)*3)+(Number(mi)*3)+(Number(td)*4)+(Number(cs)*3)+(Number(iem)*1.5)+(Number(el_lab_3)*1.5)+(Number(mc_lab)*3) ) / 22
+        var Result = ( (Number(adc)*4)+(Number(pe)*3)+(Number(mi)*4)+(Number(td)*2)+(Number(cs)*3)+(Number(iem)*1.5)+(Number(el_lab_3)*1.5)+(Number(mc_lab)*1.5)+(Number(oec)*3) ) / 22
     }
 
     

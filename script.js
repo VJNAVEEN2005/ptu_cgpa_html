@@ -108,6 +108,23 @@ function hm2(){
                 window.location = "MT/7th_sem.html"
             }
         }
+        else if(localStorage.getItem("dept") == "eie"){
+            if(localStorage.getItem("sem") == "3"){
+                window.location = "EIE/3rd_sem.html"
+            }
+            else if(localStorage.getItem("sem") == "4"){
+                window.location = "EIE/4th_sem.html"
+            }
+            else if(localStorage.getItem("sem") == "5"){
+                window.location = "EIE/5th_sem.html"
+            }
+            else if(localStorage.getItem("sem") == "6"){
+                window.location = "EIE/6th_sem.html"
+            }
+            else if(localStorage.getItem("sem") == "7"){
+                window.location = "EIE/7th_sem.html"
+            }
+        }
     
 }
 
