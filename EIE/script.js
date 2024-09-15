@@ -218,9 +218,9 @@ function result_5(){
     }
 
     if(localStorage.getItem("hm") == "minor" || localStorage.getItem("hm") == "honor"){
-        var Result = ( (Number(adc)*4)+(Number(pe)*3)+(Number(mi)*4)+(Number(td)*2)+(Number(cs)*3)+(Number(iem)*1.5)+(Number(el_lab_3)*1.5)+(Number(mc_lab)*1.5)+(Number(oec)*3)+(Number(minor)*4) ) / 26
+        var Result = ( (Number(adc)*4)+(Number(pe)*3)+(Number(mi)*4)+(Number(td)*2)+(Number(cs)*3)+(Number(iem)*1.5)+(Number(el_lab_3)*1.5)+(Number(mc_lab)*1.5)+(Number(oec)*3)+(Number(minor)*4) ) / 27.5
     }else{
-        var Result = ( (Number(adc)*4)+(Number(pe)*3)+(Number(mi)*4)+(Number(td)*2)+(Number(cs)*3)+(Number(iem)*1.5)+(Number(el_lab_3)*1.5)+(Number(mc_lab)*1.5)+(Number(oec)*3) ) / 22
+        var Result = ( (Number(adc)*4)+(Number(pe)*3)+(Number(mi)*4)+(Number(td)*2)+(Number(cs)*3)+(Number(iem)*1.5)+(Number(el_lab_3)*1.5)+(Number(mc_lab)*1.5)+(Number(oec)*3) ) / 23.5
     }
 
     
@@ -290,9 +290,9 @@ function result_6(){
     }
 
     if(localStorage.getItem("hm") == "minor" || localStorage.getItem("hm") == "honor"){
-        var Result = ( (Number(psa)*2)+(Number(mm)*3)+(Number(pe1)*3)+(Number(pe2)*4)+(Number(entre)*3)+(Number(mm_lab)*3)+(Number(pe_lab)*1.5)+(Number(oec)*1.5)+(Number(oec1)*3)+(Number(minor)*4) ) / 28
+        var Result = ( (Number(psa)*4)+(Number(mm)*4)+(Number(pe1)*3)+(Number(pe2)*3)+(Number(entre)*3)+(Number(mm_lab)*1.5)+(Number(pe_lab)*1.5)+(Number(oec)*1.5)+(Number(oec1)*3)+(Number(minor)*4) ) / 28.5
     }else{
-        var Result = ( (Number(psa)*2)+(Number(mm)*3)+(Number(pe1)*3)+(Number(pe2)*4)+(Number(entre)*3)+(Number(mm_lab)*3)+(Number(pe_lab)*1.5)+(Number(oec)*1.5)+(Number(oec1)*3) ) / 24
+        var Result = ( (Number(psa)*4)+(Number(mm)*4)+(Number(pe1)*3)+(Number(pe2)*3)+(Number(entre)*3)+(Number(mm_lab)*1.5)+(Number(pe_lab)*1.5)+(Number(oec)*1.5)+(Number(oec1)*3) ) / 24.5
     }
     
 
@@ -364,9 +364,9 @@ function result_7(){
     }
 
     if(localStorage.getItem("hm") == "minor" || localStorage.getItem("hm") == "honor"){
-        var Result = ( (Number(psoc)*3)+(Number(ps)*4)+(Number(ssd)*4)+(Number(pe3)*3)+(Number(pe4)*3)+(Number(pe5)*1.5)+(Number(ps_lab)*1)+(Number(seminar)*3)+(Number(minor)*4) ) / 26.5
+        var Result = ( (Number(psoc)*4)+(Number(ps)*4)+(Number(ssd)*3)+(Number(pe3)*3)+(Number(pe4)*1.5)+(Number(pe5)*1)+(Number(ps_lab)*2)+(Number(minor)*4) ) / 22.5
     }else{
-        var Result = ( (Number(psoc)*3)+(Number(ps)*4)+(Number(ssd)*4)+(Number(pe3)*3)+(Number(pe4)*3)+(Number(pe5)*1.5)+(Number(ps_lab)*1)+(Number(seminar)*3)) / 22.5
+        var Result = ( (Number(psoc)*4)+(Number(ps)*4)+(Number(ssd)*3)+(Number(pe3)*3)+(Number(pe4)*1.5)+(Number(pe5)*1)+(Number(ps_lab)*2)) / 18.5
     }
     
 
