@@ -125,6 +125,23 @@ function hm2(){
                 window.location = "EIE/7th_sem.html"
             }
         }
+        else if(localStorage.getItem("dept") == "ece"){
+            if(localStorage.getItem("sem") == "3"){
+                window.location = "ECE/3rd_sem.html"
+            }
+            else if(localStorage.getItem("sem") == "4"){
+                window.location = "ECE/4th_sem.html"
+            }
+            else if(localStorage.getItem("sem") == "5"){
+                window.location = "ECE/5th_sem.html"
+            }
+            else if(localStorage.getItem("sem") == "6"){
+                window.location = "ECE/6th_sem.html"
+            }
+            else if(localStorage.getItem("sem") == "7"){
+                window.location = "ECE/7th_sem.html"
+            }
+        }
     
 }
 
