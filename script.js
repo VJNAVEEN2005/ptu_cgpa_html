@@ -142,6 +142,23 @@ function hm2(){
                 window.location = "ECE/7th_sem.html"
             }
         }
+        else if(localStorage.getItem("dept") == "mech"){
+            if(localStorage.getItem("sem") == "3"){
+                window.location = "MECH/3rd_sem.html"
+            }
+            else if(localStorage.getItem("sem") == "4"){
+                window.location = "MECH/4th_sem.html"
+            }
+            else if(localStorage.getItem("sem") == "5"){
+                window.location = "MECH/5th_sem.html"
+            }
+            else if(localStorage.getItem("sem") == "6"){
+                window.location = "MECH/6th_sem.html"
+            }
+            else if(localStorage.getItem("sem") == "7"){
+                window.location = "MECH/7th_sem.html"
+            }
+        }
     
 }
 
