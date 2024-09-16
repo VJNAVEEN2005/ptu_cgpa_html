@@ -358,9 +358,9 @@ function result_7(){
     }
 
     if(localStorage.getItem("hm") == "minor" || localStorage.getItem("hm") == "honor"){
-        var Result = ( (Number(psoc)*3)+(Number(ps)*3)+(Number(ssd)*3)+(Number(pe3)*3)+(Number(pe4)*3)+(Number(pe5)*3)+(Number(ps_lab)*2)+(Number(seminar)*1)+(Number(oec)*3)+(Number(minor)*4) ) / 28
+        var Result = ( (Number(psoc)*3)+(Number(ps)*3)+(Number(ssd)*3)+(Number(pe3)*3)+(Number(pe4)*3)+(Number(pe5)*3)+(Number(ps_lab)*2)+(Number(seminar)*1)+(Number(minor)*4) ) / 25
     }else{
-        var Result = ( (Number(psoc)*3)+(Number(ps)*3)+(Number(ssd)*3)+(Number(pe3)*3)+(Number(pe4)*3)+(Number(pe5)*3)+(Number(ps_lab)*2)+(Number(seminar)*1)+(Number(oec)*3) ) / 24
+        var Result = ( (Number(psoc)*3)+(Number(ps)*3)+(Number(ssd)*3)+(Number(pe3)*3)+(Number(pe4)*3)+(Number(pe5)*3)+(Number(ps_lab)*2)+(Number(seminar)*1) ) / 21
     }
     
 
