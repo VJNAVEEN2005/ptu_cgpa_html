@@ -159,6 +159,23 @@ function hm2(){
                 window.location = "MECH/7th_sem.html"
             }
         }
+        else if(localStorage.getItem("dept") == "civil"){
+            if(localStorage.getItem("sem") == "3"){
+                window.location = "CIVIL/3rd_sem.html"
+            }
+            else if(localStorage.getItem("sem") == "4"){
+                window.location = "CIVIL/4th_sem.html"
+            }
+            else if(localStorage.getItem("sem") == "5"){
+                window.location = "CIVIL/5th_sem.html"
+            }
+            else if(localStorage.getItem("sem") == "6"){
+                window.location = "CIVIL/6th_sem.html"
+            }
+            else if(localStorage.getItem("sem") == "7"){
+                window.location = "CIVIL/7th_sem.html"
+            }
+        }
     
 }
 
