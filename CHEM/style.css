@@ -285,7 +285,7 @@ body {
 .background_white{
     margin-top: 10px;
     margin-bottom: 5px;
-    max-width: 380px;
+    max-width: max-content;
     padding-top: 5px;
     border-radius: 20px 20px 20px 20px;
     background-color: #ffffff;

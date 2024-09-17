@@ -176,6 +176,23 @@ function hm2(){
                 window.location = "CIVIL/7th_sem.html"
             }
         }
+        else if(localStorage.getItem("dept") == "chem"){
+            if(localStorage.getItem("sem") == "3"){
+                window.location = "CHEM/3rd_sem.html"
+            }
+            else if(localStorage.getItem("sem") == "4"){
+                window.location = "CHEM/4th_sem.html"
+            }
+            else if(localStorage.getItem("sem") == "5"){
+                window.location = "CHEM/5th_sem.html"
+            }
+            else if(localStorage.getItem("sem") == "6"){
+                window.location = "CHEM/6th_sem.html"
+            }
+            else if(localStorage.getItem("sem") == "7"){
+                window.location = "CHEM/7th_sem.html"
+            }
+        }
     
 }
 
