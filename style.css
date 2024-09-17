@@ -428,4 +428,8 @@ body {
     
     }
 
+    .background_white{
+        max-width: 350px;
+    }
+
 }
